@@ -3,9 +3,9 @@ project_name: "card-health"
 
 
 
-project_name: "cardinal-health"
-application: cardinal-health {
-  label: "Cardinal Health"
+project_name: "card-health"
+application: card-health {
+  label: "Card Health"
   url: "http://localhost:8080/bundle.js"
   entitlements: {
     local_storage: yes
