@@ -11,7 +11,7 @@ application: card-health {
     local_storage: yes
     use_embeds: yes
     use_iframes: yes
-    core_api_methods: ["all_connections", "search_folders", "run_query", "me", "dashboard",
+    core_api_methods: ["all_connections", "search_folders", "run_query", "me", "dashboard", "lookml_model_explore",
       "query_for_slug", "create_sql_query", "run_sql_query"]
     use_form_submit: yes
   }
