@@ -6,7 +6,8 @@ project_name: "card-health"
 project_name: "card-health"
 application: card-health {
   label: "Card Health"
-  url: "http://localhost:8080/bundle.js"
+  # url: "http://localhost:8080/bundle.js"
+  file: "bundle.js"
   entitlements: {
     local_storage: yes
     use_embeds: yes
