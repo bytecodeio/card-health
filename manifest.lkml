@@ -15,5 +15,21 @@ application: card-health {
     core_api_methods: ["all_connections", "search_folders", "run_query", "me", "dashboard", "lookml_model_explore", "create_query",
       "query_for_slug", "create_sql_query", "run_sql_query", "run_inline_query"]
     use_form_submit: yes
+    external_api_urls : ["http://localhost:8080","https://localhost:8080"]
+  }
+}
+
+application: purchase-review {
+  label: "Purchase Review"
+  #url: "http://localhost:8080/bundle.js"
+  file: "cardinal_framework/bundle.js"
+  entitlements: {
+    local_storage: yes
+    use_embeds: yes
+    use_iframes: yes
+    core_api_methods: ["all_connections", "search_folders", "run_query", "me", "dashboard", "lookml_model_explore", "create_query",
+      "query_for_slug", "create_sql_query", "run_sql_query", "run_inline_query"]
+    use_form_submit: yes
+    external_api_urls : ["http://localhost:8080","https://localhost:8080"]
   }
 }
