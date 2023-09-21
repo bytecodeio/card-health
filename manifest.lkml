@@ -21,8 +21,8 @@ application: card-health {
 
 application: purchase-review {
   label: "Purchase Review"
-  url: "http://localhost:8080/bundle.js"
-  #file: "cardinal_framework/bundle.js"
+  #url: "http://localhost:8080/bundle.js"
+  file: "cardinal_framework/bundle.js"
   entitlements: {
     local_storage: yes
     use_embeds: yes
